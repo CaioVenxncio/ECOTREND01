@@ -1,0 +1,71 @@
+/* cores */
+.bg-green {
+    background-color: #4CAF50; /* verde sustentável */
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+/* Header */
+header .navbar-brand {
+    font-weight: bold;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Seções de Produtos */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+/* Footer */
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilo para Imagens na Página de Detalhes do Produto */
+.product-detail-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Altura máxima para a imagem */
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
